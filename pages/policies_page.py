@@ -6,3 +6,4 @@ class Policies:
     def open_policy_details(self):
         self.page.get_by_role("link", name="Containers Minimum Replica Count").click()
 ##
+
